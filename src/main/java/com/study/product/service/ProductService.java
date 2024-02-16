@@ -46,9 +46,11 @@ public class ProductService {
 		searchProductRespDtos.add(productVo.toSearchDto());
 		}
 		return searchProductRespDtos;
+		
 //		return productDao.getProductList().stream()
 //				.map(vo -> vo.toSearchDto())
 //				.collect(Collectors.toList());
+		
 	}
 	
 }

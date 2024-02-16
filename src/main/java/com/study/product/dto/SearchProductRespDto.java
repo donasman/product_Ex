@@ -6,7 +6,7 @@ import lombok.Data;
 @Builder
 @Data
 public class SearchProductRespDto {
-	private int prodictId;
+	private int productId;
 	private String productName;
 	private int productPrice;
 	private String productSize;

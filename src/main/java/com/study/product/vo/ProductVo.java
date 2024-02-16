@@ -26,7 +26,7 @@ public class ProductVo {
 	
 	public SearchProductRespDto toSearchDto() {
 		return SearchProductRespDto.builder()
-				.prodictId(productId)
+				.productId(productId)
 				.productName(productName)
 				.productPrice(productPrice)
 				.productSize(productSize)

@@ -33,7 +33,7 @@ public class ProductDao {
 		
 		try {
 			con = pool.getConnection();
-			String sql = "select + from product_tb";
+			String sql = "select * from product_tb";
 			pstmt = con.prepareStatement(sql);
 			rs = pstmt.executeQuery();
 			

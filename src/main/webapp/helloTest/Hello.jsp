@@ -6,8 +6,12 @@
 	
 	//스크립틀릿
 	
-	List<String> names = List.of("정건희","정건이","정건삼");
+	String name = "정건희";
+	String inputValue = "test";
 %>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,15 +21,11 @@
 <body>
 	<h1>Hello</h1>
 	<ul>
-		<%
-			for(String name : names) {
-		%>
-			<li>${name}</li>
-		<%
-			};
-		%>
-		
+		<li><%= name %></li>
 	</ul>
+	<div>
+		<input value="<%= inputValue %>">
+	</div>
 	
 </body>
 </html>
